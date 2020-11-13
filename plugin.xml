@@ -11,8 +11,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <repo>https://github.com/maklesoft/cordova-plugin-migrate-localstorage.git</repo>
     <issue>https://github.com/maklesoft/cordova-plugin-migrate-localstorage/issues/</issue>
 
-    <dependency id="cordova-plugin-ionic-webview" version="^4.1.3" />
-
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="MigrateLocalStorage">
